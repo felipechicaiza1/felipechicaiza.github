@@ -1,0 +1,91 @@
+carita (2).iconav {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 0;
+}
+nav a
+{
+	text-decoration: 0;
+	color: inherit;
+	font-size: 14px;
+}
+
+nav li
+{
+       float:left;
+       width:10%;
+       padding:5px 10px;
+       background-color:#000;
+       border:1px solid #000;
+       text-align:center;
+       color:#fff;
+
+}
+nav li:hover
+{
+	background-color: #ffffff;
+	color: #000;
+}
+
+body
+{
+	background-color: black;
+	color: orange;
+	font-size: 22px; 
+}
+input
+{
+	font-size: 22px;	
+	background-color: #F3DCAB;
+}
+form
+{
+	background-color: orange;
+	color: black;
+}
+fieldset
+{
+	border-radius: 5px;
+	border: 7px dotted white;
+}
+
+input[required]{
+  border-color:blue;
+  box-shadow:0px 0px 5px blue;
+}
+input:invalid{
+  border-color:red;
+  box-shadow:0px 0px 5px blue;
+}
+input:valid{
+	border-color:green;
+	box-shadow:0px 0px 5px green;
+}
+
+article
+{
+	background-color: gainsboro;
+	box-shadow: 10px 30px 10px gray;
+	color: black;
+}
+footer
+{
+	background-color: beige;
+	box-shadow: 0px 0px 30px orange;
+}
+div
+{
+	background-color: ghostwhite;
+	width: 700px;
+	height: 100px;
+	box-shadow: 0px 0px 25px blue;
+}
+.bloque-derecha
+{
+	background-color: orange;
+	margin-top: -40px;
+	float: right;
+	width: 290px;
+	color: black;
+}

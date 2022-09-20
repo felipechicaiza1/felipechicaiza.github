@@ -1,0 +1,61 @@
+nav {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 0;
+}
+nav a
+{
+	text-decoration: 0;
+	color: inherit;
+	font-size: 14px;
+}
+
+nav li
+{
+       float:left;
+       width:10%;
+       padding:5px 10px;
+       background-color:#000;
+       border:1px solid #000;
+       text-align:center;
+       color:#fff;
+
+}
+nav li:hover
+{
+	background-color: #ffffff;
+	color: #000;
+}
+
+body
+{
+	background-color: black;
+	color: orange;
+	font-size: 22px; 
+}
+
+div
+{
+	background-color:orange;
+	color: blanchedalmond;
+	text-shadow: 10px 10px 5px black;
+	height: 40px;
+	width: 500px;
+}
+
+article
+{
+	float: left;
+	overflow: hidden;
+
+
+}
+aside
+{
+	float: right;
+	overflow: hidden;
+	background-color: orange;
+	color: black;
+
+}
